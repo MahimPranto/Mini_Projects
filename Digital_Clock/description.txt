@@ -1,0 +1,21 @@
+Building a Digital Clock using JavaScript
+
+In this project, I will be building a digital clock using JavaScript. The clock will display the current time and update every second.
+
+Instructions:
+
+Create an HTML file with a <div> element that will display the clock.
+
+Add a <script> element to the HTML file and write your JavaScript code inside it.
+
+Create a function that will update the clock every second using the setInterval() method. This function should:
+
+a. Get the current time using the Date() object.
+
+b. Format the time into hours, minutes, and seconds using string manipulation.
+
+c. Display the formatted time in the <div> element.
+
+Call the function once to initialize the clock.
+
+Test your clock by refreshing the page and verifying that it updates every second.
