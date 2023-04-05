@@ -1,21 +1,16 @@
-Building a Digital Clock using JavaScript
+*Created two functions-> setDate() and setTime() to extract date and time from Date();
 
-In this project, I will be building a digital clock using JavaScript. The clock will display the current time and update every second.
+*Stored values in different variables using getDay(),getDate(),getMonth,gerFullYear()
+*getDay() gives us a numerical number, so I predeclared an array of days to get the day using the number.
 
-Instructions:
+*using querySelector, showed the date in the html file, where I predeclared a class "showDate" to display the date
 
-Create an HTML file with a <div> element that will display the clock.
+*Similarly, stored values for time in different variable, using getHours(),getMinutes(),getSeconds().
+*However, we get the time in 24hours format, so I converted it in 12-hours format by hour = hour % 12 || 12;
+    Here, if the time is 24hours or 12 hours, it will show 12, and if the time is, for example, 15hours, it will show 15%12=3
 
-Add a <script> element to the HTML file and write your JavaScript code inside it.
+Also, for better presentation, I applied the condition "< 10 ?" to add a '0' if the hour,minute or second is in single digit.
 
-Create a function that will update the clock every second using the setInterval() method. This function should:
+using querySelector, showed the time in the html file, where I predeclared a class "showTime" to display the time
 
-a. Get the current time using the Date() object.
-
-b. Format the time into hours, minutes, and seconds using string manipulation.
-
-c. Display the formatted time in the <div> element.
-
-Call the function once to initialize the clock.
-
-Test your clock by refreshing the page and verifying that it updates every second.
+At the end, used setInterval(setTime, 1000); to trigger the setTime function and set a an interval to update the time every second.

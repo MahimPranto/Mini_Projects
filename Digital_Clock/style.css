@@ -8,13 +8,12 @@ body{
 }
 
 h1{
+    display: inline-block;
+    border: solid white;
+    background-color: gray;
     font-size: 5rem;
     color: white;
-}
-.heading{
-    background-color: gray;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 1%;
 }
 .digiClock{
     color: white;
