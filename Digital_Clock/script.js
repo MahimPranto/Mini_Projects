@@ -7,7 +7,6 @@ function setDate(){
         month = months[d.getMonth()],
         year = d.getFullYear();
     return `${day}, ${date}, ${month}, ${year}`
-
 }
 document.querySelector(".showDate").innerHTML = setDate();
 function setTime(){
