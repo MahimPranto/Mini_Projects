@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.heading{
+    display: inline-block;
+    background-color: lightgrey;
+    margin-top: 2%;
+}
+.question_box{
+    background-color: seashell;
+}
