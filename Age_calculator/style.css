@@ -6,3 +6,54 @@ body{
     background-repeat: no-repeat;
     color: white;
 }
+.heading{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+#username{
+    width: 30%;
+}
+#dob{
+    width: 30%;
+}
+.btn{
+    margin-top: 0.5%;
+    width: 30%;
+}
+.outputBox{
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+    padding-bottom: 1px;
+    text-align: left;
+    /*border: gray solid;*/
+}
+.nameBox{
+    background-color: white;
+    color: black;
+    padding-left: 1%;
+    border: lightgrey solid;
+}
+.ageBox{
+    background-color: white;
+    color: black;
+    padding-left: 1%;
+    border: lightgrey solid;
+}
+.years{
+    background-color: lightcoral;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.months{
+    background-color: lightgrey;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.days{
+    background-color: lightblue;
+    padding-left: 1%;
+    padding-right: 1%;
+}
