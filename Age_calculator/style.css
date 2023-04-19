@@ -20,6 +20,7 @@ body{
 .btn{
     margin-top: 0.5%;
     width: 30%;
+    background-color: lightblue;
 }
 .outputBox{
     background-color: white;
