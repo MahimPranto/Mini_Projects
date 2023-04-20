@@ -6,8 +6,6 @@ subtractBtn.addEventListener("click", subtract);
 resetBtn.addEventListener("click", reset);
 addBtn.addEventListener("click", add);
 
-let sum=0;
-
 function subtract(){
     document.querySelector(".counter").innerHTML--;
 }
