@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 body{
+    font-family: 'Roboto Mono', monospace;
     background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.container{
+    border: white solid;
+    margin: 5% 30% 0% 30%;
+    padding-bottom: 2%;
+}
+.controller{
+    margin-top: 5%;
+}
+.heading{
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.btn1{
+    background-color: red;
+}
+.btn2{
+    background-color: lightblue;
+}
+.btn3{
+    background-color: lawngreen;
+}
+.counter{
+    font-size: 2rem;
 }
