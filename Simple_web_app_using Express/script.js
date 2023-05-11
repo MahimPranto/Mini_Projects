@@ -16,10 +16,15 @@ app.get('/books', function (req, res){
 
 app.post('/books', function(req, res){
     const { title = '', author = '', publishedDate = '' } = req.body;
+    const iso8601regex = /^\d{4}-\d{2}-\d{2}$/;
 
     if (!title || !author) {
         res.status(400).json({ message: 'Title and author are required.' });
-    } else {
+    }
+    else if(!iso8601regex.test(publishedDate)) {
+        res.status(400).json({message: 'Invalid publication date format. Must be in ISO 8601 format (YYYY-MM-DD).'});
+    }
+    else {
         const id = Date.now().toString();
         const book = { id, title, author, publishedDate };
         books.push(book);
