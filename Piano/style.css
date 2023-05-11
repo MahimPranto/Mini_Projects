@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+.heading{
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+.piano{
+    display: flex;
+    justify-content: center;
+    border: 10px gray solid;
+    background-color: gray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.key-white{
+    width: 100px;
+    height:160px;
+    border: 1px black solid;
+    background-color: white;
+
+}
+.key-black{
+    width: 60px;
+    height: 100px;
+    border: 1px black solid;
+    background-color: black;
+}
