@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: beige;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  margin-top: 2%;
+}
+
+.btn-danger {
+  margin-left: auto;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.heading{
+  padding-bottom: 2%;
+}
